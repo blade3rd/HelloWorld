@@ -1,2 +1,3 @@
 #!/bin/bash
-node /app.js > /dev/null 2> /dev/null < /dev/null &
+node app.js&
+exit 0
