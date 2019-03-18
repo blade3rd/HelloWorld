@@ -1,2 +1,2 @@
 #!/bin/bash
-node /app.js > /dev/null 2> /dev/null < /dev/null &
+sudo node /var/api/app.js > /dev/null 2> /dev/null < /dev/null &
